@@ -22,15 +22,23 @@ const Home = () =>{
             </div>
             <div className ="icons">
                 <ul>
+                    <li>
+
+                   
                     <a
                     target="_blank"
                     rel ="noreferrer"
                     href = "https://www.linkedin.com/in/ronvic-cuevas/"
-                    ></a>
-                    <FontAwesomeIcon icon = {faLinkedin} color="#4d4d4e"/>
-                    <FontAwesomeIcon icon = {faGithub} color="#4d4d4e"/>
-                    <FontAwesomeIcon icon = {faInstagram} color="#4d4d4e"/>
-                    <FontAwesomeIcon icon = {faTwitter} color="#4d4d4e"/>
+                    >
+                        <FontAwesomeIcon icon = {faLinkedin} color="#4d4d4e"/>
+                    </a>
+                    <a  target="_blank"
+                    rel ="noreferrer"
+                    href = "https://github.com/ronvic12"
+                    >
+                         <FontAwesomeIcon icon = {faGithub} color="#4d4d4e"/>
+                    </a>
+                    </li>
                 </ul>
             </div>
         </div>
