@@ -12,7 +12,7 @@ const Home = () =>{
             <img src={Profile} alt ="profile"></img>
             <h1>Software Developer</h1>
             <h2>Computer Science at UC Davis</h2>
-            <a href={Resume}>Download Resume</a>
+            <a href={Resume} className ="resume-button">Download Resume</a>
       
             </div>
         </div>
