@@ -3,7 +3,10 @@ import {Link,NavLink} from 'react-router-dom';
 import './index.scss';
 import {faHome,faUser,faCode,faTimeline} from '@fortawesome/free-solid-svg-icons';
 import Ronvic from '../../assets/images/ronvic.png';
-
+import {
+    faLinkedin,
+    faGithub
+  } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
     <div className= "nav-bar">
         <Link className= 'logo' to ="/">
@@ -24,6 +27,27 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon ={faTimeline} color= "#4d4d4e"/> 
             </NavLink>
         </nav>
+
+        <ul>
+                    <li>
+
+                    <a
+                    target="_blank"
+                    rel ="noreferrer"
+                    href = "https://www.linkedin.com/in/ronvic-cuevas/"
+                    >
+                        <FontAwesomeIcon icon = {faLinkedin} color="#4d4d4e"/>
+                    </a>
+                    </li>
+                    <li>
+                    <a  target="_blank"
+                    rel ="noreferrer"
+                    href = "https://github.com/ronvic12"
+                    >
+                         <FontAwesomeIcon icon = {faGithub} color="#4d4d4e"/>
+                    </a>
+                    </li>
+                </ul>
     </div>
 )
 
