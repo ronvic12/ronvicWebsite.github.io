@@ -1,7 +1,12 @@
+import './index.scss';
+
+
 const About = () =>{
 
     return (
         <div className="container about-page">
+            <div className="text-zone">
+
            <h1>About Me</h1>
            <p>
            I am a first-generation graduate with a B.S. degree in Computer Science 
@@ -19,6 +24,7 @@ I really like problem solving and face new challenges.
 As of today, I constantly learning new programming languages and creating my own personal projects, 
 in order to expand my Software Skills. I really love facing new challenges everyday.
            </p>
+           </div>
         </div>
     );
 }
