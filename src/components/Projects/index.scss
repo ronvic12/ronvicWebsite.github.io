@@ -1,0 +1,13 @@
+.project-container{
+   display:flex;
+    align-self: center;
+    justify-content:center;
+    margin-top:10%;
+}
+#profimg{
+    width:20%;
+     opacity: 0;
+     height: auto;
+     animation: fadeIn 1s linear both;
+     animation-delay: 0.5s;
+}
