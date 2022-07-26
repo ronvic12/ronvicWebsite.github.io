@@ -48,10 +48,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+OpportunityKnocks App</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      A mobile cross-platform App created for student-athletes to provide compensation through their image and likeness. This app was built through flutter and dart with the support of the Firebase as the database.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -59,10 +59,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+OneLoop</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Web Application created for OneLoop organization that was made by #includeDavis. Contributed by developing a UI design on settings page with another team member. Used HTML,CSS and JavaScript.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -70,10 +70,9 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>MyExposure (HACKDAVIS, independent work)</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      A website created with other two team members by using HTML, CSS, Javascript for FrontEnd and Python as a Backend language in order to know the exposure risk, in order to make smart decisions of either meeting with your social buddies or not.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -81,10 +80,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+Aegis(3D test factory game) </Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Aegis is a 3D demo mini-game that has different types of shield and projectiles that are instantiated. It demonstrates different types of projectile damage and shield damage. Contributed by implementing factory software design pattern.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -92,10 +91,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+Pikmini( 3D mini-game) </Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Pikmini is a 3D mini-game that uses the observe pattern design in order to command the pikmini from one place to another. Contributed by implementing Publisher/ Subscriber patterns and designing a lifespan of a pikmini.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -103,10 +102,9 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>Connect4AI</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Building two types of AI agents: MinimaxAI agent and AlphabetaAI agent. The main goal is to learn the fundamentals of Minimax and Alphabeta for two player games.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -114,10 +112,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+ClimbingMountSaintHelens</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      Designed an Admissible Heuristic and Implementing A* algorithm for minimizing total path cost and amount time spent.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
@@ -125,10 +123,10 @@ KnightQuest( 2D Platform Game)</Card.Title>
   <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+dcash</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      This web server is a simple server used in ECS 150 for teaching about multi-threaded programming and operating systems. This version of the server can only handle one client at a time and simply serves static files. Also, it will close each connection after reading the request and responding, but generally is still HTTP 1.1 compliant.
       </Card.Text>
       <Button variant="primary">View on Github</Button>
     </Card.Body>
