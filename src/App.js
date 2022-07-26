@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <>
+ 
     <Routes>
       <Route path ="/" element ={<Layout />}>
         <Route index element ={<Home />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path= "/workexperience" element ={<Experience />} />
         </Route>
     </Routes>
+ 
     </>
   )
    

@@ -10,15 +10,19 @@
 //     justify-content:center;
 // }
 .wrapper{
-    margin-top:5%;
-    margin-left:20%;
+    margin-left:10%;
 }
 .card-group{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
-
+    gap: 1em;
+}
+.card{
+    border-top:2px solid #fff;
+}
+.card-title{
+    color: #ffd700;
 }
 .card-img-top {
     width: 100%;
@@ -26,3 +30,6 @@
     object-fit: cover;
 }
 
+.card-text{
+    color: #fff;
+}
