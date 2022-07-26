@@ -16,7 +16,11 @@ import KnightQuest from '../../assets/logo_images/kq.png'
 import OpportunityKnocks from '../../assets/logo_images/app_icon.png'
 import Include from '../../assets/logo_images/include.jpeg'
 import Exposure from '../../assets/logo_images/exposure.jpg'
-
+import Aegis from '../../assets/logo_images/aegis.png'
+import Pikmini from '../../assets/logo_images/pikmini.png'
+import Connect4 from '../../assets/logo_images/connect.png'
+import MtStHelen from '../../assets/logo_images/mtsthelen.jpg'
+import Dcash from '../../assets/logo_images/dcash.jpg'
 function Projects(){
   return (
     <div className="wrapper">
@@ -68,7 +72,7 @@ OneLoop</Card.Title>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={KnightQuest} />
+    <Card.Img variant="top" src={Aegis} />
     <Card.Body>
       <Card.Title>
 Aegis(3D test factory game) </Card.Title>
@@ -79,7 +83,7 @@ Aegis(3D test factory game) </Card.Title>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={KnightQuest} />
+    <Card.Img variant="top" src={Pikmini} />
     <Card.Body>
       <Card.Title>
 Pikmini( 3D mini-game) </Card.Title>
@@ -90,7 +94,7 @@ Pikmini( 3D mini-game) </Card.Title>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={KnightQuest} />
+    <Card.Img variant="top" src={Connect4} />
     <Card.Body>
       <Card.Title>Connect4AI</Card.Title>
       <Card.Text>
@@ -100,7 +104,7 @@ Pikmini( 3D mini-game) </Card.Title>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={KnightQuest} />
+    <Card.Img variant="top" src={MtStHelen} />
     <Card.Body>
       <Card.Title>
 ClimbingMountSaintHelens</Card.Title>
@@ -111,12 +115,14 @@ ClimbingMountSaintHelens</Card.Title>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src={KnightQuest} />
+    <Card.Img variant="top" src={Dcash} />
     <Card.Body>
       <Card.Title>
 dcash</Card.Title>
       <Card.Text>
-      This web server is a simple server used in ECS 150 for teaching about multi-threaded programming and operating systems. This version of the server can only handle one client at a time and simply serves static files. Also, it will close each connection after reading the request and responding, but generally is still HTTP 1.1 compliant.
+     A simple web server used in OS class to learn about multi-threaded programming. This version of the server can only handle one client at a time and simply serves static files. Uses Stripe for transsaction.
+
+
       </Card.Text>
       <Card.Link href="https://github.com/ronvic12/dcash"><button>View on Github</button></Card.Link>
     </Card.Body>
