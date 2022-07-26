@@ -36,12 +36,13 @@ function Projects(){
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src={KnightQuest} />
     <Card.Body>
-      <Card.Title>Card Title</Card.Title>
+      <Card.Title>
+KnightQuest( 2D Platform Game)</Card.Title>
       <Card.Text>
-        Some quick example text to build on the card title and make up the
-        bulk of the card's content.
+      KnightQuest is a 2D platform gameplay with simple sword combat mechanics. The goal of the game is traverse various obstacles and enemies in order to save the royal family. Worked with 5 people, contributed by implementing User Interface, Map Level Design and Narrative Design.
       </Card.Text>
-      <Button variant="primary">View on Github</Button>
+      <Card.Link href="https://github.com/ronvic12/KnightQuest">View on Github</Card.Link>
+      <Card.Link href="https://breliu-dv.github.io/KnightQuest/">Play on WebGL version</Card.Link>
     </Card.Body>
   </Card>
   <Card style={{ width: '18rem' }}>

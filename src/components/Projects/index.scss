@@ -9,9 +9,16 @@
 //     gap: 2rem;
 //     justify-content:center;
 // }
+.wrapper{
+    margin-top:5%;
+    margin-left:20%;
+}
 .card-group{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+
 }
 .card-img-top {
     width: 100%;
