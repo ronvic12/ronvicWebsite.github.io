@@ -12,8 +12,10 @@ const Experience = () => {
   <VerticalTimeline>
   
     <VerticalTimelineElement 
-    className = "work_experience"
+    className = "vertical-timeline-element--work"
     date ="January 2022 - March 2022"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
     icon = {<WorkIcon/>}
     >
@@ -36,8 +38,10 @@ Front-End development. We use RethinkDB as our main source of Database, and usin
 
 
     <VerticalTimelineElement 
-    className = "work_experience"
+    className = "vertical-timeline-element--work"
     date ="May 2021 -November 2021"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
     icon = {<WorkIcon/>}
     >
@@ -57,8 +61,10 @@ Front-End development. We use RethinkDB as our main source of Database, and usin
     </p>
     </VerticalTimelineElement>
     <VerticalTimelineElement 
-    className = "work_experience"
+    className = "vertical-timeline-element--work"
     date ="October 2020-May 2021"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
     icon = {<WorkIcon/>}
     >
