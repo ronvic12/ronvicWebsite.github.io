@@ -9,10 +9,6 @@ const Home = () =>{
             
             <div className="text-zone">
             <h1>Hi, I'm Ronvic Cuevas</h1> 
-            {/* <div>
-            <img id= "myprofile" src={Profile} alt ="profile"></img>
-            </div>
-            */}
  
             <h2>Software Developer | Computer Science at UC Davis</h2>
             <a href={Resume} className ="resume-button">Download Resume</a>
