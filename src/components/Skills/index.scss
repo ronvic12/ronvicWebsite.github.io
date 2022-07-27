@@ -1,16 +1,29 @@
 .skills-page{
-    border: 1px solid #fff;
+    border-top: 2px solid #fff;
     h1{
         text-align: center;
-        color: #fff;
+        color: #ffd700;
     }
+    
 }
-
+#title{
+    text-align: center;
+    color: #ffd700;
+    font-size:25px;
+}
 .programming{
     border: 1px solid #fff;
-    text-align: center;
-    #types{
-        display: flex;
-        flex-direction: row;
-    }
+   display : table;
+   margin: 0 auto;
 }
+ ul#types{
+    text-align: center;
+    min-width: 696px;
+	list-style: none;
+    }
+    ul#types li{
+        display: inline;
+        padding: 5px;
+        color: #fff;
+        font-size: 18px;
+    }

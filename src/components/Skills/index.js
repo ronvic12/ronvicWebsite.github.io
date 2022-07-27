@@ -9,8 +9,17 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Skills = () => {
   return (
+    <>
+    <h1 id ="title">MY SOFTWARE SKILLS</h1>
+    <div>
+      <p>
+        I recently graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
+        Regards to my software skillset, I am really proficient in Python and C++. I also have prior experience regards to web and mobile development.
+        Checkout my projects in Portfolio section 
+      </p>
+    </div>
   <div className="skills-page">
-    <h1>SKILLS</h1>
+    
 
     <h1>Programming Languages</h1>
     <div className="programming">
@@ -18,6 +27,7 @@ const Skills = () => {
       <li>Python</li>
       <li>C/C++</li>
       <li>Dart</li>
+      <li>R</li>
     </ul>
     </div>
     <h1>Front-end Tools & FrameWorks (Mobile/Web Dev)</h1>
@@ -28,8 +38,9 @@ const Skills = () => {
       <li>TypeScript/JavaScript</li>
       <li>ReactJS</li>
       <li>Flutter</li>
-      <li>Figma</li>
+      <li>Bootstrap</li>
       <li>Swift/SwiftUI</li>
+      <li>Figma</li>
     </ul>
     </div>
     <h1>Backend tools & Databases (Mobile/Web Dev)</h1>
@@ -44,8 +55,21 @@ const Skills = () => {
       <li>RethinkDB</li>
     </ul>
     </div>
+    <h1>Version Control & IDE Development</h1>
+    <div className="programming">
+    <ul id = "types">
+      <li>Git</li>
+      <li>Linux(Ubuntu)</li>
+      <li>UNIX</li>
+      <li>Visual Studio Code</li>
+      <li>Android Studio</li>
+      <li>Xcode</li>
+      <li>Rstudio</li>
+    </ul>
+    </div>
     
     </div>
+    </>
   );
 };
 
