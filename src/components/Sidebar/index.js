@@ -21,7 +21,7 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon ={faCode} color= "#4d4d4e"/> 
             </NavLink>
 
-            <NavLink  activeclassname = "active" className ="project-link" to ="/projects">
+            <NavLink  activeclassname = "active" className ="project-link" to ="/portfolio">
                 <FontAwesomeIcon icon ={faProjectDiagram} color= "#4d4d4e"/> 
             </NavLink>
             <NavLink activeclassname = "active" className ="exp-link"to ="/workexperience">

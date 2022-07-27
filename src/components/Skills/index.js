@@ -6,18 +6,21 @@ import {
   faReact,
   faPython,faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {NavLink} from 'react-router-dom';
 const Skills = () => {
   return (
     <>
     <h1 id ="title">MY SOFTWARE SKILLS</h1>
-    <div>
+    <div className ="my_description">
       <p>
         I recently graduated this past June 2022 with a B.S. Computer Science Degree from the University of California Davis.
-        Regards to my software skillset, I am really proficient in Python and C++. I also have prior experience regards to web and mobile development.
-        Checkout my projects in Portfolio section 
-      </p>
+        Regards to my software skillset, I am really proficient in Python and C++. I also have prior experience with Web and Mobile development.
+         </p>
+      <p> Checkout my projects in  <NavLink to ="/portfolio">Portfolio</NavLink> section. Also visit me in <a href = "https://www.linkedin.com/in/ronvic-cuevas/">LinkedIn</a> hoping we can connect and chat.
+    </p>
     </div>
+
+    
   <div className="skills-page">
     
 

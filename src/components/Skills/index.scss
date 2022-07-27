@@ -20,10 +20,23 @@
     text-align: center;
     min-width: 696px;
 	list-style: none;
-    }
-    ul#types li{
+}
+ul#types li{
         display: inline;
         padding: 5px;
         color: #fff;
         font-size: 18px;
+}
+
+.my_description{
+   border-top: 2px solid #fff;
+   margin-left:7%;
+    p{
+        color:#ffd700;
+        font-size: 12px;
+        text-align: center;
     }
+    a{
+        color:#fff;
+    }
+}
