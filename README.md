@@ -1,3 +1,8 @@
+# Referenced use for building this website:
+FreeCodeCamp: https://www.youtube.com/watch?v=bmpI252DmiI&t=3349s
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
